@@ -27,24 +27,25 @@ class _HomeScreenState extends State<HomeScreen> {
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.home,size: 30,),
           label: ''
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search),
+            icon: Icon(Icons.search,size: 30,),
               label: ''
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.mic),
+            icon: Icon(Icons.mic,size: 30,),
               label: ''
-          ),
 
+          ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.notifications),
+            icon: Icon(Icons.notifications,size: 30,),
               label: ''
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.mail),
+
+              icon: Icon(Icons.mail,size: 30,),
               label: ''
           ),
         ],
@@ -118,7 +119,14 @@ class _HomeScreenState extends State<HomeScreen> {
 
 
 
-     )
+     ),
+     MyCard(name: 'suleman awan',username: '@sulemanawan415',caption: 'Be a warrior not a worrier',
+       comment: '20',like: '30',retweet: '10',profileimg:'images/logo.png' ,
+       share: '1',time: '5h',img: 'images/logo.png',
+
+
+
+     ),
 
           ],
         ),
